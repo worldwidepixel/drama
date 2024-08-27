@@ -1,0 +1,90 @@
+{
+  "schemes": [
+    "[group] [action] [subject], again",
+    "[group] [action_people] [generic_people], resulting in [result]",
+    "[group] [action_people] [generic_people], instantly regret it",
+    "[group] launches DoS attack against [group]",
+    "[group] creates [generic_subject] with their latest project",
+    "Infighting causes [group_members] to cease development"
+  ],
+  "words": {
+    "group": [
+      "Optifine",
+      "FabricMC",
+      "QuiltMC",
+      "Modrinth",
+      "Curseforge",
+      "SpigotMC",
+      "PaperMC",
+      "OrnitheMC",
+      "Mojang",
+      "Github",
+      "Gitlab",
+      "9Minecraft",
+      "Microsoft",
+      "Discord",
+      "Prism Launcher",
+      "MultiMC",
+      "PolyMC"
+    ],
+    "group_members": [
+      "Optifine Team",
+      "FabricMC Team",
+      "QuiltMC Team",
+      "Modrinth Team",
+      "Curseforge Team",
+      "SpigotMC Team",
+      "PaperMC Team",
+      "OrnitheMC Team",
+      "Mojang Employees",
+      "Github Employees",
+      "Gitlab Employees",
+      "9Minecraft Team",
+      "Microsoft Employees",
+      "Discord Employees",
+      "Prism Launcher Team",
+      "MultiMC Team",
+      "PolyMC Team"
+    ],
+    "subject": [
+      "Minecraft 1.21",
+      "Minecraft 1.12.2",
+      "Minecraft 1.8.9",
+      "Sodium",
+      "Fabric API",
+      "Github Sponsors",
+      "Indium"
+    ],
+    "generic_subject": [
+      "bugs",
+      "problems",
+      "errors",
+      "improvements",
+      "excitement"
+    ],
+    "generic_people": ["users", "players", "contributors", "employees", "team"],
+    "action": [
+      "creates",
+      "destroys",
+      "removes",
+      "re-adds",
+      "eliminates",
+      "forks",
+      "redesigns",
+      "relicenses",
+      "refactors"
+    ],
+    "action_people": ["bans", "fires", "kicks", "breaks"],
+    "result": [
+      "DoS attack",
+      "DDoS attack",
+      "DMCA takedown",
+      "a relicense",
+      "a massive performance boost",
+      "apology",
+      "a lack of 1.21 support",
+      "bankruptcy"
+    ],
+    "reasonPretext": ["because", "to"]
+  }
+}

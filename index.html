@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <!-- If you are looking at this, check out my Github at https://github.com/worldwidepixel -->
+
+    <title> Dramacraft, by WorldWidePixel </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO is cool, right? -->
+
+    <meta name="title" content="Dramacraft, by WorldWidePixel">
+    <meta name="description" content="Generate silly fake Minecraft drama with the click of a button.">
+    <meta name="keywords" content="minecraft, minecraft drama, minecraft drama, minecraft game, minecraft java, Minecraft, MCBE, MCPE, drama">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="1 days">
+    <meta name="author" content="WorldWidePixel">
+
+    <!-- Imports and stuff -->
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <link rel="icon" href="./img/icon.png">
+
+    <link rel="preconnect" href="https://fonts.bunny.net">
+
+    <link href="https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+
+  </head>
+
+  <body>
+
+    <div class="pageLayout">
+
+      <div class="titleContainer">
+
+        <div class="logo">
+
+          <img class="mineFactsLogo" src="./img/dramacraft.png">
+
+          <div class="tilt">
+
+            <!-- FIX AFTER RELEASE OKAY <div id="splash" class="pop">It's here!</div> -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="informationContainer">
+
+        <div class="factWindow">
+
+          <span class="factTitle white shadow"> Did you know..? </span>
+
+          <div id="factReplace" class="fact white shadow">
+
+            The earliest versions of Minecraft reused the codebase of Notch's earlier project, RubyDung.
+
+          </div>
+
+          <span class="gold shadow day"> This page is satirical. Don't take it seriously. </span>
+
+        </div>
+
+      </div>
+
+      <div class="oneRem">
+
+      <div class="shareRow">
+
+        <div class="share-button" onclick="shareBluesky()"><img class="shareImage" src="./img/share-bsky.png"></div>
+
+        <div class="share-button" onclick="shareTwitter()"><img class="shareImage" src="./img/share-twit.png"></div>
+
+        <div
+          id="mastodonButton"
+          class="share-button"
+          onclick="shareMastodon()">
+          <img class="shareImage" src="./img/share-mastodon.png">
+        </div>
+
+        <div id="mastodonInput" class="share-button-text">
+          <input type="text" id="urlInput" onkeypress="getEnter(event)" class="shareInput" placeholder="ex. mastodon.social"></input>
+        </div>
+
+      </div>
+
+      <div class="credits">
+
+        <span class="credit"> Dramacraft is by <a href="https://worldwidepixel.ca">worldwidepixel</a>. </span>
+        <span class="credit"> Inspired by this <a href="https://drama.mdcfe.dev/">lovely website</a>. </span>
+
+        <span class="disclaimer"> NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG. </span>
+
+      </div>
+
+    </div>
+
+    </div>
+
+  </body>
+
+  <script src="./index.js"></script>
+
+  <script>
+    lucide.createIcons();
+  </script>
+
+</html>
