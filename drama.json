@@ -7,9 +7,10 @@
     "[group] creates [generic_subject] with their latest project",
     "Infighting causes [group_members] to cease development",
     "r/minecraft admin [action_people] [generic_people], again",
-    "Minecraft Youtubers shocked by [group]'s latest desision to [action_now] [subject]",
+    "Minecraft Youtubers shocked by [group]'s latest decision to [action_now] [subject]",
     "[group] redesigns their website, half baked",
-    "[group] shocked by community's desision not to use [subject]"
+    "[group] shocked by community's desision not to use [subject]",
+    "[group] rebrands, community [people_reaction]"
   ],
   "words": {
     "group": [
@@ -104,7 +105,8 @@
       "relicenses",
       "refactors",
       "breaks",
-      "steals"
+      "steals",
+      "pirates"
     ],
     "action_now": [
       "stop supporting",
@@ -127,6 +129,16 @@
       "apology",
       "a lack of 1.21 support",
       "bankruptcy"
+    ],
+    "people_reaction": [
+      "shocked",
+      "outraged",
+      "excited",
+      "happy",
+      "done",
+      "quit",
+      "annoyed",
+      "unhappy"
     ],
     "reasonPretext": ["because", "to"]
   }
