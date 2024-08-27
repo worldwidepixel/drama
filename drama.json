@@ -10,7 +10,13 @@
     "Minecraft Youtubers shocked by [group]'s latest decision to [action_now] [subject]",
     "[group] redesigns their website, half baked",
     "[group] shocked by community's desision not to use [subject]",
-    "[group] rebrands, community [people_reaction]"
+    "[group] rebrands, community [people_reaction]",
+    "PolyMC shocked at 'wokeness' by [group_members]",
+    "[group]'s support for [subject] causes [generic_subject]",
+    "[group] replaced with [group], users [people_reaction]",
+    "Community shocked at misconduct in the [group_members]",
+    "A lot of [generic_subject] expected with release of [subject]",
+    "[group] cancelled after misconduct by team member"
   ],
   "words": {
     "group": [
@@ -81,8 +87,9 @@
       "errors",
       "improvements",
       "excitement",
-      "controversey",
-      "community outrage"
+      "controversy",
+      "community outrage",
+      "outrage"
     ],
     "generic_people": [
       "users",
@@ -90,8 +97,8 @@
       "contributors",
       "employees",
       "team",
-      "children",
-      "grandparents",
+      "staff",
+      "translators",
       "gamers"
     ],
     "action": [
@@ -138,7 +145,12 @@
       "done",
       "quit",
       "annoyed",
-      "unhappy"
+      "unhappy",
+      "uninterested",
+      "indifferent",
+      "don't care",
+      "aren't sure what to think",
+      "sue"
     ],
     "reasonPretext": ["because", "to"]
   }
