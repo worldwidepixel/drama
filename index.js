@@ -62,13 +62,13 @@ function shareMastodon() {
 
 function shareTwitter() {
   var todayFact = document.getElementById("factReplace").textContent;
-  var twitterURL = `https://twitter.com/intent/tweet?url=Did you know.. ? ${todayFact} | Dramacraft by WorldWidePixel | https://drama.worldwidepixel.ca #dramacraft #satire`;
+  var twitterURL = `https://x.com/intent/post?url=Did+you+know..+%3F+${todayFact}+%7C+Dramacraft+by+WorldWidePixel+%7C+https%3A%2F%2Fdrama.worldwidepixel.ca+%23dramacraft+%23satire`;
   window.open(twitterURL);
 }
 
 function shareBluesky() {
   var todayFact = document.getElementById("factReplace").textContent;
-  var blueskyURL = `https://bsky.app/intent/compose?text=Did you know.. ? ${todayFact} | Dramacraft by WorldWidePixel | https://drama.worldwidepixel.ca #dramacraft #satire`;
+  var blueskyURL = `https://bsky.app/intent/compose?text=Did you know.. ? ${todayFact} %7C%20Dramacraft%20by%20WorldWidePixel%20%7C%20https%3A%2F%2Fdrama.worldwidepixel.ca%20%23dramacraft%20%23satire`;
   window.open(blueskyURL);
 }
 

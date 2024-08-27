@@ -8,7 +8,8 @@
     "Infighting causes [group_members] to cease development",
     "r/minecraft admin [action_people] [generic_people], again",
     "Minecraft Youtubers shocked by [group]'s latest desision to [action_now] [subject]",
-    "[group] redesigns their website, half baked"
+    "[group] redesigns their website, half baked",
+    "[group] shocked by community's desision not to use [subject]"
   ],
   "words": {
     "group": [
@@ -67,7 +68,11 @@
       "Youtube",
       "Twitch",
       "Fandom",
-      "Bing"
+      "Bing",
+      "Minecraft: Bedrock Edition",
+      "Minecraft: Story Mode",
+      "Axiom",
+      "WorldEdit"
     ],
     "generic_subject": [
       "bugs",
