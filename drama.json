@@ -5,7 +5,10 @@
     "[group] [action_people] [generic_people], instantly regret it",
     "[group] launches DoS attack against [group]",
     "[group] creates [generic_subject] with their latest project",
-    "Infighting causes [group_members] to cease development"
+    "Infighting causes [group_members] to cease development",
+    "r/minecraft admin [action_people] [generic_people], again",
+    "Minecraft Youtubers shocked by [group]'s latest desision to [action_now] [subject]",
+    "[group] redesigns their website, half baked"
   ],
   "words": {
     "group": [
@@ -14,6 +17,10 @@
       "QuiltMC",
       "Modrinth",
       "Curseforge",
+      "Overwolf",
+      "Youtube",
+      "Twitch",
+      "Fandom",
       "SpigotMC",
       "PaperMC",
       "OrnitheMC",
@@ -25,7 +32,9 @@
       "Discord",
       "Prism Launcher",
       "MultiMC",
-      "PolyMC"
+      "PolyMC",
+      "Minecraft Wiki",
+      "wiki.vg"
     ],
     "group_members": [
       "Optifine Team",
@@ -53,16 +62,32 @@
       "Sodium",
       "Fabric API",
       "Github Sponsors",
-      "Indium"
+      "Indium",
+      "Modrinth",
+      "Youtube",
+      "Twitch",
+      "Fandom",
+      "Bing"
     ],
     "generic_subject": [
       "bugs",
       "problems",
       "errors",
       "improvements",
-      "excitement"
+      "excitement",
+      "controversey",
+      "community outrage"
     ],
-    "generic_people": ["users", "players", "contributors", "employees", "team"],
+    "generic_people": [
+      "users",
+      "players",
+      "contributors",
+      "employees",
+      "team",
+      "children",
+      "grandparents",
+      "gamers"
+    ],
     "action": [
       "creates",
       "destroys",
@@ -72,9 +97,22 @@
       "forks",
       "redesigns",
       "relicenses",
-      "refactors"
+      "refactors",
+      "breaks",
+      "steals"
     ],
-    "action_people": ["bans", "fires", "kicks", "breaks"],
+    "action_now": [
+      "stop supporting",
+      "refactor",
+      "license",
+      "relicense",
+      "steal",
+      "fork",
+      "re-add",
+      "create",
+      "remove"
+    ],
+    "action_people": ["bans", "fires", "kicks", "sues", "cease and desists"],
     "result": [
       "DoS attack",
       "DDoS attack",
