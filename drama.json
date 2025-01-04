@@ -16,7 +16,8 @@
     "[group] replaced with [group], users [people_reaction]",
     "Community shocked at misconduct in the [group_members]",
     "A lot of [generic_subject] expected with release of [subject]",
-    "[group] cancelled after misconduct by team member"
+    "[group] cancelled after misconduct by team member",
+    "[group] receives pushback after training AI models off of Modrinth's assets"
   ],
   "words": {
     "group": [
